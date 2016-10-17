@@ -6,6 +6,7 @@ function setup() {
     stroke(255, 255, 255);
     smooth();
     colorMode(HSB);
+    noLoop();
     t = 0;
 }
 
