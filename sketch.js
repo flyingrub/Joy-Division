@@ -39,6 +39,11 @@ function doVertex(y) {
     curveVertex(500,y_offset);
 }
 
+function mousePressed() {
+    noiseSeed(Date.now());
+    draw();
+}
+
 function drawOneLine(y) {
     // Hide line above
     fill(0);
