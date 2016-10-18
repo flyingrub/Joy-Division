@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-    background(38, 53, 4);
+    background(38, 53, 1);
     push();
     translate(window.innerWidth/2 - 250, window.innerHeight/2 - 250);
     for (var y = 0; y <= 50; y++) {
@@ -46,7 +46,7 @@ function touchStarted() {
 
 function drawOneLine(y) {
     // Hide line above
-    fill(38, 53, 4);
+    fill(38, 53, 1);
     strokeWeight();
 
     beginShape();
