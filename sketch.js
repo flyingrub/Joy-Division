@@ -39,7 +39,7 @@ function doVertex(y) {
     curveVertex(500,y_offset);
 }
 
-function mousePressed() {
+function touchStarted() {
     noiseSeed(Date.now());
     draw();
 }
