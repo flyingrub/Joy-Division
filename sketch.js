@@ -46,7 +46,7 @@ function mousePressed() {
 
 function drawOneLine(y) {
     // Hide line above
-    fill(0);
+    fill(38, 53, 4);
     strokeWeight();
 
     beginShape();
